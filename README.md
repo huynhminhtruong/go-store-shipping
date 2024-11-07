@@ -16,12 +16,17 @@
 - Shipping should be cancel if the order has been cancel
 - Implement gRPC service to handle this job
 
-### 4. Get an shipping by id
+### 4. Get shipping by [customer_id | location]
 
-- Implement gRPC service to get a shipping
+- Implement gRPC service to get shipping
 - Gen grpc-gateway code for HTTP GET request
 
-### 5. Get list of shipping
+### 5. Get detail of shipping by [shipping_id]
+
+- Implement gRPC service to get detail of shipping
+- Gen grpc-gateway code for HTTP GET request
+
+### 6. Get list of shipping
 
 - Implement gPRC service to get list of shipping
   - Admin role: get all

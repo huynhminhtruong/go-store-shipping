@@ -7,7 +7,7 @@
 ### 2. Make a shipping request(Auto)
 
 - Create shipping after order was created from go-store-order service
-- Implement gRPC service to create shipping
+- Implement gRPC service to handle this job
 
 ### 3. Update a shipping request(Auto)
 
@@ -16,22 +16,22 @@
 
 ### 4. Get shipping by [customer_id | location]
 
-- Implement gRPC service to get shipping
+- Implement gRPC service to handle this job
 - Gen grpc-gateway code for HTTP GET request
 
 ### 5. Get detail of shipping by [shipping_id]
 
-- Implement gRPC service to get detail of shipping
+- Implement gRPC service to handle this job
 - Gen grpc-gateway code for HTTP GET request
 
 ### 6. Get list of shipping
 
-- Implement gPRC service to get list of shipping
+- Implement gPRC service to handle this job
   - Admin role: get all
   - Customer role: get shipping which related current user only
 - Gen grpc-gateway code for HTTP GET request
 
 ### 6. Filter shipping by [id | status | location]
 
-- Implement gRPC service to search or filter orders
+- Implement gRPC service to handle this job
 - Gen grpc-gateway code for HTTP GET request

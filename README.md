@@ -4,12 +4,12 @@
 
 - Get list of orders from go-store-order service
   
-### 2. Make a shipping request
+### 2. Make a shipping request(Auto)
 
 - Create shipping after order was created from go-store-order service
 - Implement gRPC service to create shipping
 
-### 3. Update a shipping request
+### 3. Update a shipping request(Auto)
 
 - Shipping should be cancel if the order has been cancel
 - Implement gRPC service to handle this job

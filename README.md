@@ -1,5 +1,3 @@
-# go-store-shipping
-
 # Business Logic
 
 ### 1. List of orders
